@@ -16,3 +16,8 @@ Este exemplo usa o aninhamento para concatenar quatrp strings de caracteres:
 ```
 CONCAT(CONCAT(CONCAT(CONCAT(RUA, ', '), NUMERO), ' - '), BAIRRO)
 ```
+
+Replace
+```
+REPLACE(REPLACE(REPLACE(CGC, '.', ''), '/', ''), '-', '')                  AS CNPJ,
+```
