@@ -4,6 +4,20 @@
 
 Cláusulas desenvolvidas para utilização como exemplos no dia a dia.
 
+Tabelas
+```
+GFILIAL - Filiais 
+PFUNC - Funcionários
+PPESSOA - Dados Pessoais
+PSECAO - Seção
+AHORARIO
+VTABELASALARIAL
+VTABSALARIAIS
+VNIVELFUNCAO
+VFAIXASALARIAL
+GDEPTO
+```
+
 Rownum
 ```
 SELECT  
