@@ -30,8 +30,19 @@ Este exemplo usa o aninhamento para concatenar quatrp strings de caracteres:
 ```
 CONCAT(CONCAT(CONCAT(CONCAT(RUA, ', '), NUMERO), ' - '), BAIRRO)
 ```
+```
+(B.RUA || ', N° ' || B.NUMERO || ', ' || B.COMPLEMENTO || ', ' ||  B.BAIRRO || ', ' || B.CIDADE || '-' ||  B.ESTADO || ', CEP: ' || B.CEP) ENDERECO,
+```
 
 Replace
 ```
 REPLACE(REPLACE(REPLACE(CGC, '.', ''), '/', ''), '-', '')                  AS CNPJ,
+```
+
+Pegar a primeira e segunda posição e retirar os espações
+```
+RTRIM(LTRIM(SUBSTR(ZOOM_FILIAL, 1, 2)))
+
+SUBSTR(ZOOM_FILIAL, 1, 2) - Pegar as 2 primeiras posições
+RTRIM(LTRIM()) - Retira os espaços
 ```
