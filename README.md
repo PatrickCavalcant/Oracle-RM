@@ -64,3 +64,8 @@ Alter
 ```
 ALTER TABLE MP_GERAL_ANTERIOR MODIFY (TXT_JUSTIFICATIVA VARCHAR2(2000))
 ```
+
+Como pegar o nome e tipo de dados das colunas de uma tabela?
+```
+SELECT * FROM ALL_TAB_COLUMNS WHERE TABLE_NAME = 'MP_GERAL_ANTERIOR'
+```
