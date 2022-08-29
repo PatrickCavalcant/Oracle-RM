@@ -70,6 +70,10 @@ Drop
 DROP TABLE MP_GERAL_ANTERIOR
 ```
 
+Delete
+```
+DELETE * FROM MP_GERAL_ANTERIOR WHERE SOLICITACAO = '31077'
+```
 
 Como pegar o nome e tipo de dados das colunas de uma tabela?
 ```
