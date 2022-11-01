@@ -10,7 +10,7 @@ GFILIAL - Filiais
 PFUNC - Funcionários
 PPESSOA - Dados Pessoais
 PSECAO - Seção
-AHORARIO
+AHORARIO - Jornada Planejada do Funcionário
 VTABELASALARIAL
 VTABSALARIAIS
 VNIVELFUNCAO
@@ -26,7 +26,7 @@ FROM PFUNC A
 WHERE ROWNUM  < 100
 ```
 
-Este exemplo usa o aninhamento para concatenar quatrp strings de caracteres:
+Este exemplo usa o aninhamento para concatenar quatro strings de caracteres:
 ```
 CONCAT(CONCAT(CONCAT(CONCAT(RUA, ', '), NUMERO), ' - '), BAIRRO)
 ```
