@@ -16,6 +16,40 @@ VTABSALARIAIS
 VNIVELFUNCAO
 VFAIXASALARIAL
 GDEPTO
+
+MTRFMED - Medições
+MITMCNT - Itens do Contratos
+MRETPADRAO - Retenções Padrões de Itens de Contrato
+MTRF - Tarefas
+MPRJ - Projeto
+```
+
+Dicionário de dados
+```
+SELECT * FROM GDIC
+WHERE
+COLUNA = '#' AND
+TABELA LIKE 'M%' AND
+DESCRICAO LIKE '%CONTRATO%'
+
+
+COLUNA = '#' //Todas as tabelas
+TABELA LIKE 'M%' //Módulo
+```
+
+Localizar o código do módulo(abecedario)
+```
+SELECT * FROM GSISTEMA
+```
+
+Relacionamentos entre as tabelas
+```
+SELECT * FROM GLINKSREL
+WHERE MASTERTABLE = 'FLAN'
+AND CHILDTABLE = 'FCFO'
+
+MASTERTABLE = 'FLAN' //Tabela pai
+CHILDTABLE = 'FCFO' //Tabela filho
 ```
 
 Rownum
