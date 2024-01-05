@@ -22,6 +22,7 @@ MITMCNT - Itens do Contratos
 MRETPADRAO - Retenções Padrões de Itens de Contrato
 MTRF - Tarefas
 MPRJ - Projeto
+MPDO - Periodo
 ```
 
 Dicionário de dados
