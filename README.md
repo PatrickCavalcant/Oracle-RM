@@ -18,11 +18,14 @@ VFAIXASALARIAL
 GDEPTO
 
 MTRFMED - Medições
-MITMCNT - Itens do Contratos
 MRETPADRAO - Retenções Padrões de Itens de Contrato
+
+MITMCNT - Itens do Contratos
+MCNT - Contrato
 MTRF - Tarefas
 MPRJ - Projeto
 MPDO - Periodo
+MCNTSTATUSLOG - Historico
 ```
 
 Dicionário de dados
