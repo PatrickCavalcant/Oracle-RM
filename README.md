@@ -21,6 +21,7 @@ MTRFMED - Medições
 MRETPADRAO - Retenções Padrões de Itens de Contrato
 
 MITMCNT - Itens do Contratos
+MTRFMED - Itens Medidos
 MCNT - Contrato
 MTRF - Tarefas
 MPRJ - Projeto
